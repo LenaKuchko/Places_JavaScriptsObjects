@@ -1,0 +1,9 @@
+.show_place{
+  display: none;
+}
+
+.li_place:hover{
+ color: blue;
+ cursor: pointer;
+ text-decoration: underline;
+}

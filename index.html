@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <title>Places We Have Been To</title>
+  </head>
+  <body>
+    <h1>Places We Have Been To</h1>
+    <h2>Add a Place</h2>
+    <form id="places">
+    <label for="name">Name</label>
+    <input type="text" id="name" class="form-control">
+
+    <label for="location">Location</label>
+    <input type="text" id="location" class="form-control">
+
+    <label for="budget">Budget</label>
+    <input type="text" id="budget" class="form-control">
+
+    <label for="famous_food">Favorite food</label>
+    <input type="text" id="famous_food" class="form-control">
+    <button type="submit" class="btn btn-info">Add</button>
+    </form>
+
+    <ul id="list_places">
+    </ul>
+
+    <div class="show_place">
+      <ul>
+        <li id="place_name"></li>
+        <li id="place_location"> </li>
+        <li id="place_budget"></li>
+        <li id="place_famousfood"></li>
+      </ul>
+
+    </div>
+  </body>
+</html>
